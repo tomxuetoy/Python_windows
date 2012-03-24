@@ -1,0 +1,15 @@
+Installation:
+	Python 2.7.2 Windows X86-64 Installer
+	py2exe-0.6.9.win64-py2.7.amd64.exe
+
+PATH:
+	# for py2exe
+	Win7 -> Enviroment Variables -> User variables -> PATH = ***;C:\Python27	
+
+	# for gui tcl/tk (python under Windows; for Linux, nothing to do)
+	Win7 -> Enviroment Variables -> System variables -> TCL_LIBRARY = C:\Python27\tcl\tcl8.5 	
+
+Run:
+	Win7 -> CMD: 
+		python test.py
+		python setup.py py2exe # on Windows, cd \dist and run test.exe
