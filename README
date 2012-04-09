@@ -12,4 +12,4 @@ PATH:
 Run:
 	Win7 -> CMD: 
 		python test.py
-		python setup.py py2exe # on Windows, cd \dist and run test.exe
+		python setup.py py2exe # on Windows, and then go to the generated \dist directory and run test.exe
